@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//javaTester/javaBasic/Topic_03_Random.java=UTF-8
 encoding//javaTester/javaBasic/Topic_05_Param.java=UTF-8
 encoding//selenium/webdriver/Topic_00_Template.java=UTF-8
 encoding//selenium/webdriver/Topic_01_Check_Environment.java=UTF-8
@@ -7,3 +8,9 @@ encoding//selenium/webdriver/Topic_06_Web_Browser.java=UTF-8
 encoding//selenium/webdriver/Topic_06_Web_Browser_PII.java=UTF-8
 encoding//selenium/webdriver/Topic_07_Web_Element_PI.java=UTF-8
 encoding//selenium/webdriver/Topic_07_Web_Element_PII.java=UTF-8
+encoding//selenium/webdriver/Topic_08_Baitap02.java=UTF-8
+encoding//selenium/webdriver/Topic_08_Textbox_Textarea.java=UTF-8
+encoding//selenium/webdriver/Topic_08_Textbox_Textarea_Baitap.java=UTF-8
+encoding//selenium/webdriver/Topic_09_Handle_Default_Dropdown.java=UTF-8
+encoding//selenium/webdriver/Topic_09_Handle_Default_Dropdown_TC04.java=UTF-8
+encoding//selenium/webdriver/Topic_10_Handle_Custom_Dropdown.java=UTF-8
