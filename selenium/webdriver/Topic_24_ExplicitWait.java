@@ -48,7 +48,7 @@ public void beforeClass() {
 		
 	}
     @Test
-	public void TC_01_Not_Enough_time() {
+	public void TC_01_Not_Enough_timee() {
 		
 		 driver.get("https://automationfc.github.io/dynamic-loading/");
 		 
