@@ -43,23 +43,23 @@ public class Topic_10_Handle_Custom_Dropdown2 {
 		driver.get("https://react.semantic-ui.com/maximize/dropdown-example-selection/");
 		
 		
-		selectItemInCustomDropdown("div.divider.text", "div.item>span", "Stevie Feliciano");
+		selectItemInCustomDropdown1("div.divider.text", "div.item>span", "Stevie Feliciano");
 	
 	    Assert.assertEquals(driver.findElement(By.cssSelector("div.divider.text")).getText(), "Stevie Feliciano");
 		
 		
-		selectItemInCustomDropdown("div.divider.text", "div.item>span", "Justen Kitsune");
+		selectItemInCustomDropdown1("div.divider.text", "div.item>span", "Justen Kitsune");
 		
 	    Assert.assertEquals(driver.findElement(By.cssSelector("div.divider.text")).getText(), "Justen Kitsune");
 		
 		
 
-		selectItemInCustomDropdown("div.divider.text", "div.item>span", "Jenny Hess");
+		selectItemInCustomDropdown1("div.divider.text", "div.item>span", "Jenny Hess");
 		
 	    Assert.assertEquals(driver.findElement(By.cssSelector("div.divider.text")).getText(), "Jenny Hess");
 	}
 		
-		public void selectItemInCustomDropdown(String parentLocator, String chilLocator, String expectedTextItem) {
+		public void selectItemInCustomDropdown1(String parentLocator, String chilLocator, String expectedTextItem) {
 			
 			// Click vào dropdown để xổ hết các option
 				driver.findElement(By.cssSelector(parentLocator)).click();
@@ -104,18 +104,18 @@ public class Topic_10_Handle_Custom_Dropdown2 {
 driver.get("https://react.semantic-ui.com/maximize/dropdown-example-search-selection/");
 		
 		
-		selectItemInCustomDropdown("input.search", "div.item>span", "Australia");
+		selectItemInCustomDropdown1("input.search", "div.item>span", "Australia");
 	
 	    Assert.assertEquals(driver.findElement(By.cssSelector("div.divider.text")).getText(), "Australia");
 		
 		
-		selectItemInCustomDropdown("input.search", "div.item>span", "Albania");
+		selectItemInCustomDropdown1("input.search", "div.item>span", "Albania");
 		
 	    Assert.assertEquals(driver.findElement(By.cssSelector("div.divider.text")).getText(), "Albania");
 		
 		
 
-		selectItemInCustomDropdown("input.search", "div.item>span", "Belgium");
+		selectItemInCustomDropdown1("input.search", "div.item>span", "Belgium");
 		
 	    Assert.assertEquals(driver.findElement(By.cssSelector("div.divider.text")).getText(), "Belgium");
 	}
